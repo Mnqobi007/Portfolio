@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* styles/globals.css */
+
+@font-face {
+    font-family: Poppins;
+    src: url('../src/assets/fonts/Poppins-Regular.ttf');
+}
+
+@import "tailwindcss";
+
+@theme{
+    --font-Poppins: 'Poppins', sans-serif;
+    --font-Playfair: 'Playfair', serif;
+
+     --color-primary: #D946EF;  
+  
+}
+

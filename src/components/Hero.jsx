@@ -1,6 +1,6 @@
 export default function Hero(){
     return (
-       <div className="container mx-auto flex justify-between items-center py-16 px-20">
+       <div className="container mx-auto flex justify-between items-center py-16 px-20 mt-8 md:mt-12 lg:mt-16">
             <div className="flex flex-col space-y-4 font-Poppins ">
                 <div className='relative w-[95%] sm:w-48 h-10 bg-primary shadow-[0_0_15px_rgba(255,255,255,0.4)] rounded-full'>
                    <div className="absolute inset-[2px] bg-black rounded-full flex items-center justify-center text-white text-xl">
@@ -16,7 +16,7 @@ export default function Hero(){
                     <i class="fa-solid fa-envelope"></i>
                 </div>
             </div>
-            <div className="flex space-x-4 relative p-10">
+            <div className="flex space-x-4 relative p-10 hidden md:flex">
                 <div className="z-10">
                 <img src="src/assets/images/My younger Self.jpg" alt="Profile" className="w-100 h-120 rounded-md"/>
                 </div>

@@ -9,8 +9,8 @@ export default function Header() {
   }
 
   return (
-    <header className="md:border-b border-gray-900  ">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
+    <header>
+        <div className="container mx-auto px-4 py-6 flex justify-between items-center border-b-2 border-gray-900">
             
             {/* Logo */ }
             <a href="#" className="md:text-4xl font-light font-Playfair m-0 tracking-wider"><span className="text-primary text-3xl">MK</span><span className='text-4xl'>SIBIYA</span><span className="text-primary-500">.</span></a>

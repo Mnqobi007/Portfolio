@@ -2,7 +2,7 @@ import React from "react";
 
 export const About = () => {
   return (
-    <section className="relative bg-gradient-to-b from-gray-900 via-gray-950 to-black text-white py-20 px-6">
+    <section className="relative bg-gradient-to-b from-gray-900 via-gray-950 to-black text-white py-20 px-6 rounded-lg shadow-lg">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
         
         {/* Left: Profile Image */}

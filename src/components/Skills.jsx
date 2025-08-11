@@ -1,5 +1,5 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiPostgresql } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { SiTailwindcss, SiPostgresql } from "react-icons/si";
 
 export default function Skills() {
   const skills = [
@@ -17,9 +17,9 @@ export default function Skills() {
     <section className="py-20 bg-black text-white">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <h2 className="text-4xl font-bold text-center mb-12 relative inline-block">
-          <span className="bg-primary text-black px-4 py-2 rounded-full shadow-[0_0_20px_rgba(255,255,255,0.6)]">
-            Skills
+        <h2 className="text-4xl font-bold  text-center mb-12">
+          <span className="bg-primary text-xl text-black px-3 py-2 rounded-[30px] shadow-[0_0_20px_rgba(255,255,255,0.4)]">
+            Tech Stack
           </span>
         </h2>
 

@@ -9,7 +9,7 @@ export default function Header() {
   }
 
   return (
-    <header>
+    <header className='sticky top-0 z-50 bg-black text-white shadow-lg'>
         <div className="container mx-auto px-4 py-6 flex justify-between items-center border-b-2 border-gray-900">
             
             {/* Logo */ }

@@ -26,9 +26,11 @@ export default function Header() {
                 </ul>
             </nav>
             {/* Desktop Download CV Button*/ }
-            <button className="hidden lg:block font-Poppins   text-white rounded-full px-6 py-2  cursor-pointer border-primary border-1 shadow-[0_0_15px_rgba(67,26,257,0.9)] hover:bg-primary transition-colors duration-300">
-                DOWNLOAD CV
-            </button>
+            <div className="hidden md:flex space-x-6 text-3xl">
+                <i className="fa-brands fa-github hover:text-primary transition-colors cursor-pointer"></i>
+                <i className="fa-brands fa-linkedin hover:text-primary transition-colors cursor-pointer"></i>
+                <i className="fa-solid fa-envelope hover:text-primary transition-colors cursor-pointer"></i>
+          </div>
 
             {/* Mobile Menu opening Button*/ }
             <button onClick={toggleMenu} className="block lg:hidden text-white text-2xl">

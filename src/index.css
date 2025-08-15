@@ -1,5 +1,6 @@
+/* index.css */
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
-
+@import "tailwindcss";
 /* styles/globals.css */
 
 @font-face {
@@ -7,13 +8,12 @@
     src: url('../src/assets/fonts/Poppins-Regular.ttf');
 }
 
-@import "tailwindcss";
 
 @theme{
     --font-Poppins: 'Poppins', sans-serif;
     --font-Playfair: 'Playfair', serif;
 
-     --color-primary: #3D90D7;  
+     --color-primary: #3685b5;  
   
 }
 
